@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var enterMessageTextField: UITextField!
     
+    @IBOutlet weak var recipientLabel: UILabel!
+    
     @IBOutlet weak var mailButton: UIButton!
     
     override func viewDidLoad() {
@@ -33,10 +35,21 @@ class ViewController: UIViewController {
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
         messageLabel.textColor = UIColor.redColor()
+        
+        
+        recipientLabel.hidden = false
+        recipientLabel.text = enterNameTextField.text
+        recipientLabel.textColor = UIColor.greenColor()
+        
         enterMessageTextField.text = ""
+        enterNameTextField.text = ""
+        
     //Hide the keyboard
         enterMessageTextField.resignFirstResponder()
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
+        
+    //Hide the keyboard if the cursor is in the textfield
+        enterNameTextField.resignFirstResponder()
     }
 
 }
