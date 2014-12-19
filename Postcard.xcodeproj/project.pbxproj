@@ -13,6 +13,8 @@
 		04E3C8231A43888200934571 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E3C8221A43888200934571 /* Images.xcassets */; };
 		04E3C8261A43888200934571 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E3C8241A43888200934571 /* LaunchScreen.xib */; };
 		04E3C8321A43888200934571 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3C8311A43888200934571 /* PostcardTests.swift */; };
+		04E3C83C1A438ED800934571 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04E3C83B1A438ED800934571 /* JRT.jpg */; };
+		04E3C83E1A43915300934571 /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04E3C83D1A43915300934571 /* Bo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		04E3C82B1A43888200934571 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E3C8301A43888200934571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E3C8311A43888200934571 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		04E3C83B1A438ED800934571 /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
+		04E3C83D1A43915300934571 /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		04E3C8191A43888200934571 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04E3C83D1A43915300934571 /* Bo.jpg */,
+				04E3C83B1A438ED800934571 /* JRT.jpg */,
 				04E3C81A1A43888200934571 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E3C83E1A43915300934571 /* Bo.jpg in Resources */,
 				04E3C8211A43888200934571 /* Main.storyboard in Resources */,
 				04E3C8261A43888200934571 /* LaunchScreen.xib in Resources */,
+				04E3C83C1A438ED800934571 /* JRT.jpg in Resources */,
 				04E3C8231A43888200934571 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
